@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Tính chu vi hình tròn</h3>
+<input type="text" placeholder="R" id="input1">
+<button onclick="tinhchuvi()">Click</button>
+<script>
+    function tinhchuvi() {
+        let r = document.getElementById("input1").value;
+        const PI = 3.14;
+        let c = (r*2)*PI;
+        alert(c)
+    }
+</script>
+
+
+</body>
+</html>

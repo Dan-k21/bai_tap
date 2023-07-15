@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" placeholder="Lý" id="ly">
+<input type="text" placeholder="Hoá" id="hoa">
+<input type="text" placeholder="Sinh" id="sinh">
+<button onclick="diem()">Click</button>
+<script>
+    function diem() {
+        let a = +document.getElementById("ly").value;
+        let b = +document.getElementById("hoa").value;
+        let c = +document.getElementById("sinh").value;
+        let d = (a+b+c);
+        alert(d)
+        alert(d/3)
+    }
+</script>
+</body>
+</html>
